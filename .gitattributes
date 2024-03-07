@@ -1,0 +1,3 @@
+*.sh        eof=lf
+*.conf      eof=lf
+*.conf.tmpl eof=lf
