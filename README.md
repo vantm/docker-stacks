@@ -16,8 +16,8 @@ docker compose up -d
 To start/stop the cluster, run
 
 ```bash
-docker compose stop
 docker compose start
+docker compose stop
 ```
 
 To remove the cluster, run
