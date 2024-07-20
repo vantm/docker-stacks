@@ -14,8 +14,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 100m
-          memory: 100M
+          cpus: 0.1
+          memory: "100M"
   redis-2:
     container_name: redis-2
     image: redis:7-alpine
@@ -31,8 +31,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 100m
-          memory: 100M
+          cpus: 0.1
+          memory: "100M"
   redis-3:
     container_name: redis-3
     image: redis:7-alpine
@@ -48,8 +48,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 100m
-          memory: 100M
+          cpus: 0.1
+          memory: "100M"
   redis-4:
     container_name: redis-4
     image: redis:7-alpine
@@ -65,8 +65,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 100m
-          memory: 100M
+          cpus: 0.1
+          memory: "100M"
   redis-5:
     container_name: redis-5
     image: redis:7-alpine
@@ -82,8 +82,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 100m
-          memory: 100M
+          cpus: 0.1
+          memory: "100M"
   redis-6:
     container_name: redis-6
     image: redis:7-alpine
@@ -99,8 +99,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 100m
-          memory: 100M
+          cpus: 0.1
+          memory: "100M"
   redis-init:
     container_name: redis-init
     image: redis:7-alpine
@@ -111,5 +111,5 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 100m
-          memory: 50M
+          cpus: 0.1
+          memory: "50M"

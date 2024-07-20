@@ -17,8 +17,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 100m
-          memory: 100M
+          cpus: 0.1
+          memory: "100M"
   {{- end }}
   redis-init:
     container_name: redis-init
@@ -30,5 +30,5 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 100m
-          memory: 50M
+          cpus: 0.1
+          memory: "50M"
